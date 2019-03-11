@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2feff;
+}
+
+.main h2 {
+  font-size: 30px;
+}
+
+.main .element {
+  margin-left: 20px;
+}
+
+.main .element .wrap a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main .element .wrap p {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main .element .wrap p::before {
+  content: "";
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  margin: 0 10px 0 10px;
+  background-color: #000;
+}
+/*# sourceMappingURL=styles.css.map */
